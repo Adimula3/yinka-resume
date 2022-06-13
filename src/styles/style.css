@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Pacifico&family=Quicksand:wght@300&family=Roboto:wght@100&family=Shadows+Into+Light&family=Square+Peg&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans+Narrow&family=Pacifico&family=Quicksand:wght@300&family=Roboto:wght@100&family=Shadows+Into+Light&family=Square+Peg&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans+Narrow&family=Pacifico&family=Quicksand:wght@300&family=Roboto:wght@100&family=Shadows+Into+Light&family=Square+Peg&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+/*....Header...............*/
+
+.resume-details {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+.text1 {
+    margin-right: 50%;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.text2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.text3 {
+    font-weight: 200;
+}
+.hire-details {
+
+}
+.inner-content h2 {
+    font-size: 40px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.nav-content {
+    display: flex;
+    flex-direction: row;
+}
+.inner-content {
+    margin-right: 35%;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.navbar ul li {
+    margin: 5px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+}
+/*....Works...............*/
+@media (min-width:801px) {
+    .carousel {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 4px 4px 52px 19px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 4px 4px 52px 19px rgba(0,0,0,0.75);
+        -moz-box-shadow: 4px 4px 52px 19px rgba(0,0,0,0.75);
+    }
+    .carousel img{
+        height: 600px;
+    }
+}
+.work-text {
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.work-text h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif
+}
+/*....About...............*/
+
+.about {
+    margin-top: 60px;
+}
+.about h2 {
+    font-size: 40px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.about p {
+    font-family: 'Comfortaa', cursive;
+    text-align: left;
+}
+.download {
+    border: 1px solid;
+    padding: 5px 0 5px 0;
+    margin: 0 200px 0 200px;
+    text-align: left;
+}
+.image {
+    object-fit: contain;
+}
+
+/*....Services...............*/
+
+.services {
+    margin-top: 60px;
+}
+.services h2 {
+    font-size: 40px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.services h6 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+}
+.services p {
+    font-family: 'Comfortaa', cursive;
+    text-align: left;
+}
+.services li {
+    font-family: 'Comfortaa', cursive;
+    list-style-type: cjk-ideographic;
+    text-align: left;
+}
+/*....Contact...............*/
+
+.contact {
+    margin-top: 60px;
+}
+.contact h2 {
+    font-size: 40px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-control {
+    margin:  20px;
+    font-family: 'Comfortaa', cursive;
+}
+.contact-details {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.contact-details h7 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+}
+.contact-details p {
+    font-family: 'Comfortaa', cursive;
+}
+.contact-message {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+.contact-message2 {
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+}
+.message2 {
+    text-align: left;
+    margin-left: 250px;
+}
+.button {
+    background-color: white;
+    color: black;
+    border:  1px solid;
+   padding: 5px 100px 5px 100px;
+    font-family: 'Comfortaa', cursive;
+}
+.button:hover {
+    background-color: black;
+    color: white;
+}
+/*--------------------------------------------------------------
+# Footer Section
+--------------------------------------------------------------*
+ */
+.footer {
+    text-align: center;
+    margin-top: 70px;
+    padding: 30px;
+    background: #eceff2;
+    width: 70%;
+    margin-left: 200px;
+}
+.footer h3 {
+    text-transform: capitalize;
+    font-size: 70px;
+    font-family: 'Yanone Kaffeesatz', sans-serif
+}
+
+.footer p{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+.footer .socials .socials-link {
+    margin: 10px;
+    font-size: 20px;
+    color: #04254e;
+
+}
+/*....WorkSinglePage...............*/
+.work-page{
+   margin-top: 150px;
+}
+.work-page h1 {
+    text-align: left;
+    font-family: 'Yanone Kaffeesatz', sans-serif
+}
+.work-page p {
+    text-align: left;
+    font-family: 'Comfortaa', cursive;
+}
+.image3 {
+  margin-right: 150px;
+}
+.work-page h4{
+    text-align: left;
+    font-family: 'Yanone Kaffeesatz', sans-serif
+}
+.content2 {
+    margin-top: 80px;
+}
+.work-page li {
+    text-align: left;
+    font-family: 'Comfortaa', cursive;
+}
+.visit {
+    border: 1px solid;
+    padding-left: 20px;
+}
+.breadcrumbs {
+    margin-top: 20px;
+    background-color: #eceff2;
+    color: black;
+}
+.breadcrumbs h2 {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif
+}
+.breadcrumbs li {
+    list-style-type: none;
+}
+.breadcrumbs a {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    padding-top: 20px;
+}
+
+
