@@ -54,6 +54,34 @@
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 20px;
 }
+@media (max-width: 768px) {
+    .resume-details {
+        margin-top: 0;
+        display: inline;
+    }
+    .text1 {
+       margin-right: 0;
+        text-align: left;
+    }
+    .hire-details {
+        text-align: left;
+        font-size: 10px;
+    }
+    .nav-content {
+        display: inline;
+    }
+    .inner-content h2 {
+        font-size: 20px;
+        margin-right: 50px;
+        text-align: left;
+    }
+    .inner-content p {
+        text-align: left;
+    }
+    .navbar {
+        margin-top: 0;
+    }
+}
 /*....Works...............*/
 @media (min-width:801px) {
     .carousel {
@@ -74,6 +102,15 @@
 }
 .work-text h2 {
     font-family: 'Yanone Kaffeesatz', sans-serif
+}
+@media (max-width: 768px) {
+    .work-text {
+        margin-top: 0;
+    }
+    .carousel img {
+        height: 400px;
+        width: 300px;
+    }
 }
 /*....About...............*/
 
@@ -100,6 +137,24 @@
 .image {
     object-fit: contain;
 }
+@media (max-width: 768px) {
+    .about {
+        margin-top: 0;
+    }
+
+    .about h2 {
+        font-size: 30px;
+    }
+
+    .about p {
+        font-size: 13px;
+    }
+
+    .about img {
+        margin-top: 10px;
+
+    }
+}
 
 /*....Services...............*/
 
@@ -124,6 +179,23 @@
     font-family: 'Comfortaa', cursive;
     list-style-type: cjk-ideographic;
     text-align: left;
+}
+@media (max-width: 768px) {
+    .services {
+        margin-top: 0;
+    }
+    .services h2 {
+        font-size: 30px;
+    }
+    .services p {
+        font-size: 13px;
+    }
+    .services li {
+        font-size: 13px;
+    }
+    .services h6 {
+        text-align: left;
+    }
 }
 /*....Contact...............*/
 
@@ -177,6 +249,22 @@
     background-color: black;
     color: white;
 }
+@media (max-width: 768px) {
+    .contact {
+        margin-top: 0;
+    }
+    .contact-message {
+        font-size: 20px;
+        text-align: left;
+    }
+    .message2 {
+        display: none;
+    }
+    .contact form {
+        margin-right: 20px;
+    }
+
+}
 /*--------------------------------------------------------------
 # Footer Section
 --------------------------------------------------------------*
@@ -207,6 +295,16 @@
     color: #04254e;
 
 }
+
+@media (max-width: 768px) {
+    .footer {
+        margin-left: 70px;
+    }
+    .footer h3 {
+        font-size: 40px;
+    }
+}
+
 /*....WorkSinglePage...............*/
 .work-page{
    margin-top: 150px;
