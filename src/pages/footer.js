@@ -12,6 +12,7 @@ function Footer() {
                         <a href="https://" className="socials-link"><i className='bx bxl-github'></i></a>
                     </div>
                 </div>
+                <p className="attribute">Illustration by <a href="https://icons8.com/illustrations/author/TQQ1qAnr9rn5">Oleg Shcherba</a> from <a href="https://icons8.com/illustrations">Ouch!</a></p>
             </footer>
     );
 }
