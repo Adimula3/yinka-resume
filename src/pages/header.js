@@ -5,19 +5,25 @@ import {Col, Row} from "react-bootstrap";
 import WorkSpace from  "../assets/marginalia-programming.gif"
 
 function Header() {
+
     return (
         <>
         <header>
-            <nav className="navbar">
-                <ul>
-                    <li className="list-header"><a href="/">Kolawole Olayinka </a></li>
-                    <li><a className="link" href="/">Home</a></li>
-                    <li><a className="link" href="#works">Works</a></li>
-                    <li><a className="link" href="#about">About</a></li>
-                    <li><a className="link" href="#services">Services</a></li>
-                    <li><a className="link" href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <div className="top-nav">
+                <nav className="navbar" id="navbar">
+                    <ul>
+                        <li className="list-header"><a href="/">Kolawole Olayinka </a></li>
+                        <li><a className="link" href="/">Home</a></li>
+                        <li><a className="link" href="#works">Works</a></li>
+                        <li><a className="link" href="#about">About</a></li>
+                        <li><a className="link" href="#services">Services</a></li>
+                        <li><a className="link" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="" className="icon" onClick="">
+                    <i className="fa fa-bars"></i>
+                </a>
+            </div>
 
         </header>
 

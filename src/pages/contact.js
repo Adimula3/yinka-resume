@@ -3,7 +3,7 @@ import {Col, Form, Row} from "react-bootstrap";
 
 function Contact() {
     return (
-        <section className="contact">
+        <section className="contact" id="contact">
             <div className="container">
                 <h2>Contact</h2>
                 <div>

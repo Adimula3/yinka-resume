@@ -7,10 +7,11 @@ import Contact from "./pages/contact";
 import Footer from "./pages/footer";
 import Works from "./pages/works";
 
+
 function App() {
   return (
     <div className="App" style={{background: 'f2f4ef'}}>
-       <Header />
+        <Header />
         <Works />
         <About />
         <Services />

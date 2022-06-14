@@ -4,7 +4,7 @@ import SlideImageOne from "../assets/image-slide-one.png"
 
 function Works() {
     return (
-        <div className="works">
+        <div className="works" id="works">
             <div className="work-text">
                 <h2>Things I have built for clients and<br/>business owners</h2>
             </div>

@@ -3,7 +3,7 @@ import {Col, Row} from "react-bootstrap";
 
 function Services() {
     return (
-        <section className="services">
+        <section className="services" id="services">
             <div className="container">
                 <h2>My services</h2>
                 <Row>

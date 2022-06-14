@@ -4,7 +4,7 @@ import {Col, Row} from "react-bootstrap";
 
 function About() {
     return (
-        <section className="about">
+        <section className="about" id="about">
             <div className='container'>
                 <div>
                     <Row>

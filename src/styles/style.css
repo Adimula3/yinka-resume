@@ -95,33 +95,24 @@
     width: 80%;
 }
 
-@media (max-width: 768px) {
-    .resume-details {
-        margin-top: 0;
-        display: inline;
+@media (max-width: 767px) {
+
+    .hire-details h2 {
+        font-size: 30px;
     }
-    .text1 {
-       margin-right: 0;
-        text-align: left;
-    }
-    .hire-details {
-        text-align: left;
-        font-size: 10px;
-    }
-    .nav-content {
-        display: inline;
-    }
-    .inner-content h2 {
+    .top-nav {
+        overflow: hidden;
+        background-color: #fff;
+        position: relative;
+        text-align: right;
+        padding-right: 20px;
         font-size: 20px;
-        margin-right: 50px;
-        text-align: left;
+        margin-top: 30px;
     }
-    .inner-content p {
-        text-align: left;
+    .top-nav #navbar {
+        display: none;
     }
-    .navbar {
-        margin-top: 0;
-    }
+
 }
 
 /*work styles*/
@@ -166,13 +157,17 @@
     height: 100%;
     object-fit: contain;
 }
+@media (max-width: 767px) {
+
+
+}
 
 /*....Works...............*/
 @media (min-width:801px) {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .work-text {
         margin-top: 0;
     }
@@ -211,7 +206,7 @@
     -webkit-box-shadow: 0px 0px 5px 2px rgba(153,153,153,0.75);
     -moz-box-shadow: 0px 0px 5px 2px rgba(153,153,153,0.75);
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .about {
         margin-top: 0;
     }
@@ -270,9 +265,9 @@
     text-align: left;
     padding: 10px 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .services {
-        margin-top: 0;
+        margin-top: 50px;
     }
     .services h2 {
         font-size: 30px;
@@ -354,19 +349,16 @@
     background-color: black;
     color: white;
 }
-@media (max-width: 768px) {
-    .contact {
-        margin-top: 0;
-    }
+@media (max-width: 767px) {
+
     .contact-message {
-        font-size: 20px;
-        text-align: left;
+        display: none;
     }
-    .message2 {
+    .message {
         display: none;
     }
     .contact form {
-        margin-right: 20px;
+        margin-right: 35px;
     }
 
 }
@@ -412,9 +404,9 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .footer {
-        margin-left: 70px;
+
     }
     .footer h3 {
         font-size: 40px;
@@ -471,4 +463,8 @@
     padding-top: 20px;
 }
 
+
+.nav-item {
+    margin-right: 40%;
+}
 
