@@ -4,15 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 /*....Header...............*/
-
-
-.nav-content {
-    display: flex;
-    flex-direction: row;
+.icon{
+    display: none;
 }
+
 .navbar{
     font-family: 'Open Sans', sans-serif;
-
 }
 .navbar a {
     text-decoration: none;
@@ -95,10 +92,70 @@
     width: 80%;
 }
 
+@media (max-width: 812px) {
+    .navbar a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .navbar ul{
+        width: 100%;
+    }
+    .navbar ul li.list-header {
+        width: 50%;
+        margin-left: 0;
+
+    }
+    .navbar ul li.list-header a{
+        font-size: 20px;
+    }
+    .navbar ul li {
+        margin: 5px 10px;
+    }
+    .hero{
+        padding: 40px 5px 20px;
+        margin-bottom: 5%;
+    }
+
+    .hire-details h6{
+        font-size: 13px;
+        font-weight: 700;
+        color: #5b5b5b;
+    }
+    .hire-details h2{
+        margin-top: 20px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .hire-details h2 .type-animation{
+        color: #c5af21;
+    }
+    .hire-details p{
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .hire-details .my-button .btn{
+        margin-top: 10px;
+        font-size: 13px;
+        font-weight: 600;
+        color: #222;
+        border-radius: 25px;
+        padding: 10px 30px;
+
+    }
+
+    .hero-image .img-fluid{
+        width: 100%;
+    }
+
+}
+
 @media (max-width: 767px) {
 
-    .hire-details h2 {
-        font-size: 30px;
+    .icon{
+        display: block;
     }
     .top-nav {
         overflow: hidden;
@@ -111,6 +168,38 @@
     }
     .top-nav #navbar {
         display: none;
+    }
+
+    .hero{
+        padding: 40px 5px 20px;
+        margin-bottom: 5%;
+    }
+
+    .hire-details h6{
+        font-size: 13px;
+        font-weight: 600;
+        color: #5b5b5b;
+    }
+    .hire-details h2{
+        margin-top: 20px;
+        font-size: 27px;
+    }
+    .hire-details h2 .type-animation{
+        color: #c5af21;
+    }
+    .hire-details p{
+        margin-top: 20px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .hire-details .my-button .btn{
+        margin-top: 10px;
+        margin-bottom: 30px;
+
+    }
+
+    .hero-image .img-fluid{
+        width: 80%;
     }
 
 }
@@ -157,25 +246,92 @@
     height: 100%;
     object-fit: contain;
 }
-@media (max-width: 767px) {
+@media (max-width: 812px) {
+    /*work styles*/
+    .work-text {
+        margin: auto;
+    }
 
+    .work-text h2 {
+        margin-top: 5%;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .carousel-box{
+        width: 100%;
+        margin: auto;
 
+    }
+    .carousel{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .carousel .carousel-item{
+        margin-top: 5%;
+        padding: 10px;
+        width: 600px;
+        height: 300px;
+        border-radius: 5px;
+        margin-left: 13%;
+        border: 0px solid #282c34;
+        margin-bottom: 7%;
+
+    }
+
+    .carousel img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
 }
 
 /*....Works...............*/
-@media (min-width:801px) {
+@media (max-width:540px) {
 
-}
-
-@media (max-width: 480px) {
     .work-text {
-        margin-top: 0;
+        margin: auto;
     }
-    .carousel img {
-        height: 400px;
-        width: 300px;
+    .work-text h2 {
+        margin-top: 10%;
+        font-size: 23px;
+        font-weight: 700;
     }
+    .carousel-box{
+        width: 100%;
+        margin: auto;
+
+    }
+    .carousel{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .carousel .carousel-item{
+        position: relative;
+        padding: 10px;
+        width: 90%;
+        height: 200px;
+        margin-left: 5%;
+        margin-bottom: 15%;
+        border-radius: 5px;
+
+        border: 0px solid #282c34;
+
+    }
+
+    .carousel img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
 }
+
 /*....About...............*/
 
 .about {
@@ -207,21 +363,27 @@
     -moz-box-shadow: 0px 0px 5px 2px rgba(153,153,153,0.75);
 }
 @media (max-width: 480px) {
-    .about {
-        margin-top: 0;
-    }
 
+    /*....About...............*/
     .about h2 {
+        margin-top: 30px;
         font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-align: left;
     }
-
     .about p {
-        font-size: 13px;
+        text-align: justify;
+        font-size: 14px;
+        font-weight: 500;
     }
 
-    .about img {
-        margin-top: 10px;
-
+    .image {
+        margin-top: 5%;
+        width: 65%;
+        object-fit: cover;
+        padding: 2px;
+        border-radius: 0px 15px 0px 15px;
     }
 }
 
@@ -282,6 +444,40 @@
         text-align: left;
     }
 }
+
+@media (max-width: 540px) {
+
+    /*....Services...............*/
+
+    .services {
+        margin-top: 12%;
+
+    }
+    .services h2 {
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+    .services h6 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .services p {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .services ul {
+        list-style-type: none;
+        margin-top: 10px;
+    }
+
+    .services ul li:before {
+        margin-left: -20px;
+    }
+
+}
+
+
 /*....Contact...............*/
 
 .contact {
@@ -298,8 +494,6 @@
     margin:  20px;
     font-family: 'Comfortaa', cursive;
 }
-
-
 
 .contact-message {
     font-size: 28px;
@@ -359,6 +553,63 @@
     }
     .contact form {
         margin-right: 35px;
+    }
+}
+
+@media (max-width: 540px) {
+
+    /*....Contact...............*/
+
+    .contact {
+        margin-top: 8%;
+    }
+    .contact h2 {
+        font-size: 27px;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+
+    .form-control {
+        margin: 15px 10px;
+        font-size: 14px;
+        height: 40px;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    .contact-two{
+        margin-left: 20px;
+    }
+    .message {
+        text-align: left;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .message p{
+        margin-bottom: 5px;
+    }
+
+    .contact-details {
+        text-align: left;
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    .contact-details h6{
+        font-weight: 600;
+    }
+    .contact-details p{
+        font-weight: 400;
+    }
+    .button {
+        margin-top: 10px;
+        background-color: white;
+        color: black;
+        border:  1px solid;
+       padding: 8px 50px;
+        margin-bottom: 30px;
+    }
+    .button:hover {
+        background-color: black;
+        color: white;
     }
 
 }
@@ -468,3 +719,43 @@
     margin-right: 40%;
 }
 
+@media (max-width: 540px) {
+
+
+    .footer {
+        text-align: center;
+        margin-top: 15%;
+        padding: 20px 0px 10px;
+    }
+    .footer h3 {
+        text-transform: capitalize;
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .footer p{
+        font-size: 13px;
+        font-weight: 100;
+
+    }
+    .footer .socials{
+        margin-bottom: 10px;
+    }
+
+    .footer .attribute{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .footer .attribute a{
+        text-decoration: none;
+    }
+
+    .footer .socials .socials-link {
+        margin: 10px;
+        font-size: 18px;
+        color: #04254e;
+
+    }
+
+}
