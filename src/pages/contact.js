@@ -46,7 +46,7 @@ function Contact() {
                                    <input className="form-control" type="text" placeholder="Subject" name="subject"/>
                                </div>
                                <div className="form-group">
-                                   <textarea name="" id="" className="form-control" cols="30" rows="5"  placeholder="Message" name="message"></textarea>
+                                   <textarea  className="form-control" cols="30" rows="5"  placeholder="Message" name="message"></textarea>
                                </div>
                                <div className="button-center">
                                    <button type="submit" className="button">Submit</button>
