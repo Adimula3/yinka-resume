@@ -1,7 +1,26 @@
 import React from "react";
 import {Col, Form, Row} from "react-bootstrap";
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
 
 function Contact() {
+    const form = useRef();
+
+    const sendEmail = async (e) => {
+        e.preventDefault();
+
+        await emailjs.sendForm('service_s9rc9x3', 'template_tm5gx6y', form.current, 'L6igJwwpaUaTzzg9y')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+
+        console.log(e.target.value);
+        console.log('i got here');
+
+        e.target.reset()
+    };
     return (
         <section className="contact" id="contact">
             <div className="container">
@@ -10,24 +29,24 @@ function Contact() {
                     <Row>
                         <Col lg={6}>
                             <p className="contact-message">Interested to work together?<br/> Let's talk</p>
-                           <Form>
+                           <Form ref={form} onSubmit={sendEmail}>
                                <Row>
                                    <Col md={6}>
                                        <div className="form-group">
-                                           <input className="form-control" type="text" placeholder="Your Name"/>
+                                           <input className="form-control" type="text" placeholder="Your Name" name="name"/>
                                        </div>
                                    </Col>
                                    <Col md={6}>
                                        <div className="form-group">
-                                           <input className="form-control" type="email" placeholder="Your Email"/>
+                                           <input className="form-control" type="email" placeholder="Your Email" name="email"/>
                                        </div>
                                    </Col>
                                </Row>
                                <div className="form-group">
-                                   <input className="form-control" type="text" placeholder="Subject"/>
+                                   <input className="form-control" type="text" placeholder="Subject" name="subject"/>
                                </div>
                                <div className="form-group">
-                                   <textarea name="" id="" className="form-control" cols="30" rows="5"  placeholder="Message"></textarea>
+                                   <textarea name="" id="" className="form-control" cols="30" rows="5"  placeholder="Message" name="message"></textarea>
                                </div>
                                <div className="button-center">
                                    <button type="submit" className="button">Submit</button>
