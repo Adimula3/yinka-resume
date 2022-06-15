@@ -20,9 +20,6 @@ function Header() {
                         <li><a className="link" href="#contact">Contact</a></li>
                     </ul>
                 </nav>
-                <a href="/" type="button" className="icon">
-                    <i className="fa fa-bars"></i>
-                </a>
             </div>
 
         </header>
