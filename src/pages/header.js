@@ -49,7 +49,7 @@ function Header() {
                                range of skills in React, Node, Bootstrap, PHP.</p>
 
                            <div className="my-button">
-                               <a href="../assets/Resume-Olayinka-Kolawole.pdf"
+                               <a href="https://www.keepandshare.com/doc17/27188/resume-olayinka-kolawole-1-pdf-115k?da=y"
                                   download
                                   className="btn btn-md btn-primary"><i className="far fa-file-alt"></i> Download Resume</a>
                            </div>
