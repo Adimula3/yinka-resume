@@ -1,7 +1,7 @@
 import React from "react";
 import {Carousel} from "react-bootstrap";
 import SlideImageOne from "../assets/image-slide-one.png"
-import SlideImageTwo from "../assets/screenshot2.png"
+import SlideImageTwo from "../assets/screenshot3.png"
 
 function Works() {
     return (
