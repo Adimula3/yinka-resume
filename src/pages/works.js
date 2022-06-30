@@ -2,6 +2,7 @@ import React from "react";
 import {Carousel} from "react-bootstrap";
 import SlideImageOne from "../assets/image-slide-one.png"
 import SlideImageTwo from "../assets/screenshot3.png"
+import SlideImageThree from "../assets/ScreenShot7.png"
 
 function Works() {
     return (
@@ -31,6 +32,13 @@ function Works() {
                             className="d-block w-100"
                             src={SlideImageOne}
                             alt="Third slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={SlideImageThree}
+                            alt="Fourth slide"
                         />
                     </Carousel.Item>
                 </Carousel>
