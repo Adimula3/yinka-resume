@@ -70,7 +70,7 @@ function Contact() {
                                     <h6>Phone</h6>
                                     <p>+234 9064 8192 80</p>
                                     <h6>Email</h6>
-                                    <p>kolawoleolayinka16@gmail.com.com</p>
+                                    <p>kolawoleolayinka16@gmail.com</p>
                                 </div>
                             </div>
 
